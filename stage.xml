@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<manifest>
+  <remote  name="origin" fetch="." />
+
+  <default revision="refs/heads/main" remote="origin" />
+
+  <project name="mobileye" revision="refs/heads/stage" groups="dev" />
+  <project name="ctetris" groups="product,dev" />
+  <project name="astronaut" groups="product,dev" />
+</manifest>
