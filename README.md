@@ -64,3 +64,13 @@ drwxr-xr-x@  9 yaakovneuman  staff   288 ינו 18 23:51 ctetris
 drwxr-xr-x@ 22 yaakovneuman  staff   704 ינו 18 23:51 mobileye
 yaakovneuman@Mac workspace %
 ```
+
+# Working with manifest
+You can create a new manifest with other branches than `main` (see my `stage.xml`).
+To use other manifest (after you already init your workspace), run the following commands:
+```
+repo sync               # To get the new manifest from the remote repository.
+repo init -m stage.xml  # To set you repo to work with this manifest.
+repo sync               # To sync your workspace with manifest stage.xml
+```
+
