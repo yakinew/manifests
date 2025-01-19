@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<manifest>
+  <remote name="origin" fetch="."/>
+
+  <default remote="origin" revision="refs/heads/main"/>
+
+  <project name="astronaut" revision="016445bcbd6b32dcaa4f6436b78640a67251d996" upstream="refs/heads/main" dest-branch="refs/heads/main" groups="product,dev"/>
+  <project name="ctetris" revision="8a28a4df34128fca6c8ca76b8e3195b72141414a" upstream="refs/heads/main" dest-branch="refs/heads/main" groups="product,dev"/>
+  <project name="mobileye" revision="c84d5704708447379887bfc5efbac40eade21747" upstream="refs/heads/main" dest-branch="refs/heads/main" groups="dev"/>
+</manifest>
