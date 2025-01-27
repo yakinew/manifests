@@ -48,6 +48,11 @@ Now you are ready to run:
 ```
 repo sync
 ```
+You can run multiple jobs at the same time:
+```
+repo sync -j 5
+```
+
 If everything goes right, you should see something like this:
 ```
 Fetching: 100% (3/3), done in 2.623s
