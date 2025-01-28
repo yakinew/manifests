@@ -12,6 +12,24 @@ For **macOS**, use this command:
 brew install repo
 ```
 
+## Set a GitHub token
+1. Generate a token in GitHub web (https://github.com/settings/tokens/)
+2. Save the token in a text file. Make sure no one has access to this file.
+3. Create the file ~/.netrc as following:
+```
+machine github.com
+login <username>
+password <token>
+```
+For example:
+```
+machine github.com
+login yakinew
+password ghp_oAPV********************************
+```
+
+
+
 ## Python Certificate
 Make sure your python uses certificate. If you see the following error, you have a certificate issue.
 ```
