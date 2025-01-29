@@ -99,6 +99,12 @@ repo init -m stage.xml  # To set you repo to work with this manifest.
 repo sync               # To sync your workspace with manifest stage.xml
 ```
 
+## Status and Changes
+If you want to see all the uncommited changes in you workspace, you can run the following command:
+```
+repo status
+```
+
 ## Freeze
 When you want to freeze the current state of all the projects (repositories), you can run the following command:
 ```
