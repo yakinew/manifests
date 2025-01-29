@@ -94,9 +94,8 @@ yaakovneuman@Mac workspace %
 You can create a new manifest with other branches than `main` (see my `stage.xml`).
 To use other manifest (after you already init your workspace), run the following commands:
 ```
-repo sync               # To get the new manifest from the remote repository.
 repo init -m stage.xml  # To set you repo to work with this manifest.
-repo sync               # To sync your workspace with manifest stage.xml
+repo sync -j 5          # To sync your workspace with manifest stage.xml
 ```
 
 ## Status and Changes
