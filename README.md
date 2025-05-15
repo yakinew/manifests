@@ -1,4 +1,4 @@
-# Using Google git-repo to manage muliple repositories
+# Using Google git-repo to manage multiple repositories
 Try to work with google repo. See: https://gerrit.googlesource.com/git-repo/
 
 ## Install Google git-repo
